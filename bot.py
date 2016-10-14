@@ -1,6 +1,7 @@
 import telebot
 import json
 from os import path
+import sys
 
 # Creamos el bot
 if not path.isfile("bot.token"):
